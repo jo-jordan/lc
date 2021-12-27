@@ -5,8 +5,7 @@
 #include <string.h>
 #include <printf.h>
 
-//"aabaaabaaac"
-//"aabaaac"
+// KMP Algorithm
 void Build(const char * p, int *nxt, int nlen) {
     int i, j;
     for (i = 2, j = 0; i <= nlen; i++) {
